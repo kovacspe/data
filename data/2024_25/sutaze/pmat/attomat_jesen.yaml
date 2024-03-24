@@ -1,0 +1,14 @@
+name: Attomat
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2024-09-24"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - p-mat
+#link:
