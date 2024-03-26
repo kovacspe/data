@@ -1,28 +1,29 @@
 # Nazov udalosti
-name: Malynár - 2. letná séria
+name: Mamut
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
   - mat
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
-type: seminar
+type: sutaz
 
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2024-04-08"
+  start: "2025-05-30"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - strom
 
 # Odkaz na stranku pre viac info (optional)
-link: https://malynar.strom.sk/sk/prispevky/
+link: https://malynar.strom.sk/sk/mamut/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - online
+  - Košice
+  - Poprad
 
 # Informacie o sutaziacich.
 contestants:

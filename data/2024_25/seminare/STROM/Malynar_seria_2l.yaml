@@ -11,7 +11,7 @@ type: seminar
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2024-04-08"
+  start: "2025-04-14"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
