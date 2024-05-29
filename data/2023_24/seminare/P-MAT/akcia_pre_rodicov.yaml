@@ -20,7 +20,7 @@ organizers:
 
 # Odkaz na stranku pre viac info (optional)
 # link: https://www.p-mat.sk/lsp/
-
+cancelled: true
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
   - Bratislava
