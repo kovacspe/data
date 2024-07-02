@@ -1,9 +1,9 @@
-name: Riešky 1. kolo, zimná séria časti
+name: Riešky 3. kolo, letná séria
 type: seminar
 sciences:
   - mat
 date:
-  start: "2024-10-10"
+  start: "2025-04-17"
 contestants:
   min: zs5
   max: zs9

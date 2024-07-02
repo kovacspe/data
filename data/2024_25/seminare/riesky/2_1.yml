@@ -1,9 +1,9 @@
-name: Riešky 2. kolo, letná séria časti
+name: Riešky 1. kolo, letná séria
 type: seminar
 sciences:
   - mat
 date:
-  start: "2025-03-20"
+  start: "2025-02-20"
 contestants:
   min: zs5
   max: zs9

@@ -1,9 +1,9 @@
-name: Riešky 2. kolo, zimná séria časti
+name: Riešky 3. kolo, zimná séria
 type: seminar
 sciences:
   - mat
 date:
-  start: "2024-11-07"
+  start: "2024-12-05"
 contestants:
   min: zs5
   max: zs9

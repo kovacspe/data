@@ -168,20 +168,24 @@ start = {
 name_doprogramovanie2 = {"SUSI": "Zverejnenie veľkej nápovedy"}
 
 i = 0
-directory = "riesky" if args.seminar == "Riešky" else args.seminar
-os.makedirs(f"../data/{args.year}/seminare/trojsten/{directory}", exist_ok=True)
+directory = (
+    f"../data/{args.year}/seminare/riesky"
+    if args.seminar == "Riešky"
+    else f"../data/{args.year}/seminare/trojsten/{args.seminar}"
+)
+os.makedirs(f"{directory}", exist_ok=True)
 for part in range(1, parts + 1):
     for r in range(1, rounds + 1):
         round = r
         if r == 3 and args.seminar == "SUSI":
             round = "Outdoor"
         with open(
-            f"../data/{args.year}/seminare/trojsten/{directory}/{part}_{round}.yml",
+            f"{directory}/{part}_{round}.yml",
             "w",
             encoding="utf-8",
         ) as f:
             f.write(
-                f"""name: {f"Riešky {round}. kolo, {"zimná" if part == 1 else "letná"} séria" if args.seminar == "Riešky" else f"{"Suši" if args.seminar == "SUSI" else args.seminar} – {"Koniec " if args.seminar in start else ""}{"Objavného" if round == "Outdoor" else f'{round}.'} {"kola" if args.seminar in start else "kolo"} {"zimnej" if part == 1 else "letnej"}"} časti
+                f"""name: {f"Riešky {round}. kolo, {"zimná" if part == 1 else "letná"} séria" if args.seminar == "Riešky" else f"{"Suši" if args.seminar == "SUSI" else args.seminar} – {"Koniec " if args.seminar in start else ""}{"Objavného" if round == "Outdoor" else f'{round}.'} {"kola" if args.seminar in start else "kolo"} {"zimnej" if part == 1 else "letnej"} časti"}
 type: seminar
 sciences:
   - {sciences[args.seminar]}
@@ -200,7 +204,7 @@ link: https://{url[args.seminar]}.sk/
             )
         if args.seminar in info_doprogramovanie:
             with open(
-                f"../data/{args.year}/seminare/trojsten/{directory}/{part}_{round}_after1.yml",
+                f"{directory}/{part}_{round}_after1.yml",
                 "w",
                 encoding="utf-8",
             ) as f:
@@ -224,7 +228,7 @@ link: https://{url[args.seminar]}.sk/
                 )
         if args.seminar in name_doprogramovanie2:
             with open(
-                f"../data/{args.year}/seminare/trojsten/{directory}/{part}_{round}_after2.yml",
+                f"{directory}/{part}_{round}_after2.yml",
                 "w",
                 encoding="utf-8",
             ) as f:
@@ -248,7 +252,7 @@ link: https://{url[args.seminar]}.sk/
                 )
         if args.seminar in start:
             with open(
-                f"../data/{args.year}/seminare/trojsten/{directory}/{part}_{round}_start.yml",
+                f"{directory}/{part}_{round}_start.yml",
                 "w",
                 encoding="utf-8",
             ) as f:
