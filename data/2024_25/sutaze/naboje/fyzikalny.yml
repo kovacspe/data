@@ -1,16 +1,16 @@
-name: Fyzikálny NÁBOJ
+name: Fyzikálny Náboj
 type: sutaz
 sciences:
-  - fyz
+    - fyz
 date:
-  start: "2024-11-15"
+    start: "2024-11-15"
 info: "Fyzikálny Náboj je medzinárodná súťaž päťčlenných tímov v rýchlostnom riešení fyzikálnych úloh. Každý tím začína so sadou ôsmich úloh, po každom odovzdaní správne vyriešenej úlohy dostane ďalšiu. Vyhráva tím, ktorý ich za dve hodiny vyrieši najviac."
 contestants:
-  min: ss1
-  max: ss4
+    min: ss1
+    max: ss4
 places:
-  - Bratislava
-  - Košice
+    - Bratislava
+    - Košice
 organizers:
-  - trojsten
+    - trojsten
 link: https://physics.naboj.org/sk/sk
