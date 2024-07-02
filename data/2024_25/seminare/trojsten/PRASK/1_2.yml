@@ -1,0 +1,15 @@
+name: PRASK – 2. kolo zimnej časti
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2024-11-04"
+contestants:
+  min: zs7
+  max: ss1
+places:
+  - online
+organizers:
+  - trojsten
+info: "PRASK je súťaž určená pre všetkých základoškolákov, ktorých zaujíma matematika, informatika, chceli by sa naučiť programovať, alebo len radi rozmýšľajú a prijímajú výzvy."
+link: https://prask.ksp.sk/

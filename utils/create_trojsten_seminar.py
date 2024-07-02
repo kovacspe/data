@@ -262,7 +262,7 @@ type: seminar
 sciences:
   - {sciences[args.seminar]}
 date:
-  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=14)).strftime('%Y-%m-%d')}"
+  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=56)).strftime('%Y-%m-%d')}"
 contestants:
   min: {min_year[args.seminar]}
   max: {max_year[args.seminar]}
