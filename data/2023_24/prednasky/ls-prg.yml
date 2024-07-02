@@ -1,0 +1,15 @@
+name: Letná škola programovania
+type: prednasky
+sciences:
+    - inf
+date:
+    start: "2024-07-08"
+    end: "2024-07-19"
+contestants:
+    min: zs7
+    max: ss4
+places:
+    - Bratislava
+organizers:
+    - trojsten
+link: https://leto.trojsten.sk/

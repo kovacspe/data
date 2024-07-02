@@ -1,0 +1,15 @@
+name: Prázninová šifrovačka Trojstenu
+type: sutaz
+sciences:
+    - other
+date:
+    start: "2024-07-13"
+    text: Tretí ročník PŠT, ktorá je súčasťou voľnočasového programu Letnej školy Trojstenu. Je zameraná hlavne na stredoškolákov, aj začiatočníkov, no na svoje si vedia prísť aj skúsenejšie, nie nutne stredoškolské tímy.
+contestants:
+    min: ss1
+    max: ss4
+places:
+    - Bratislava
+organizers:
+    - trojsten
+link: https://susi.trojsten.sk/pst/
