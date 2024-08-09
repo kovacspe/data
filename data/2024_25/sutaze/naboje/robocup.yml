@@ -1,0 +1,16 @@
+name: Robocup junior Slovensko
+type: sutaz
+sciences:
+    - mat
+date:
+    start: "2025-03-14"
+contestants:
+    min: ss1
+    max: ss4
+color: red
+info: ""
+places:
+    - SPŠE Zochova, Bratislava
+organizers:
+    - SSE
+link: https://robocup.skse.sk/
