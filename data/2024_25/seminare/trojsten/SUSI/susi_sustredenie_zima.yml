@@ -3,13 +3,13 @@ type: sustredenie
 sciences:
     - other
 date:
-    start: "2025-01-19"
-    end: "2025-01-23"
+    start: "2025-02-08"
+    end: "2025-02-12"
 contestants:
     min: ss1
     max: ss4
 places:
-    - GMC Bárka, Juskova Voľa
+    - RZ Euromesto, Častá - Píla
 organizers:
     - trojsten
 link: https://susi.trojsten.sk/akcie/sustredenia/
